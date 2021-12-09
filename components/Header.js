@@ -7,11 +7,12 @@ import {
 	PaperAirplaneIcon,
 	MenuIcon,
 } from "@heroicons/react/outline";
+import { HomeIcon } from "@heroicons/react/solid";
 
 const Header = () => {
 	return (
-		<div>
-			<div className="flex justify-between max-w-6xl">
+		<div className="shadow-sm border-b bg-white sticky top-0 z-50">
+			<div className="flex justify-between max-w-6xl mx-5 xl:mx-auto">
 				{/* Left */}
 				<div className="relative hidden lg:inline-grid  w-24 cursor-pointer">
 					<Image
@@ -44,6 +45,27 @@ const Header = () => {
 				</div>
 
 				{/* Right */}
+				<div className="flex items-center justify-end space-x-4">
+					<HomeIcon className="navBtn " />
+					<MenuIcon className="h-10 w-10 md:hidden cursor-pointer" />
+
+					<div className="relative navBtn">
+						<PaperAirplaneIcon className="navBtn rotate-45" />
+						<div className="absolute -top-1 -right-2.5 text-xs w-5 h-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse text-white">
+							3
+						</div>
+					</div>
+
+					<PlusCircleIcon className="navBtn" />
+					<UserGroupIcon className="navBtn" />
+					<HeartIcon className="navBtn" />
+
+					<img
+						src="https://scontent.fbwn1-1.fna.fbcdn.net/v/t31.18172-8/412866_346242955386809_1471185345_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=XozxziulXlYAX--D_Bl&_nc_ht=scontent.fbwn1-1.fna&oh=b570b36ca3f019a0ede59b72361d4f2e&oe=61D66507"
+						alt="profile picture"
+						className="h-10 w-10 rounded-full cursor-pointer"
+					/>
+				</div>
 			</div>
 		</div>
 	);
