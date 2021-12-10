@@ -4,14 +4,14 @@ const posts = [
 	{
 		id: "123",
 		username: "name123",
-		userImg: "https://bit.ly/3GxwhqY",
+		userImg: "https://bit.ly/31URxYM",
 		img: "https://bit.ly/3EKOXmr",
 		caption: "nice",
 	},
 	{
 		id: "123",
 		username: "name123",
-		userImg: "https://bit.ly/3GxwhqY",
+		userImg: "https://bit.ly/31URxYM",
 		img: "https://bit.ly/3EKOXmr",
 		caption: "nice",
 	},
@@ -25,7 +25,7 @@ function Posts() {
 					key={post.id}
 					id={post.id}
 					username={post.username}
-					userImg={post.img}
+					userImg={post.userImg}
 					img={post.img}
 					caption={post.caption}
 				/>
