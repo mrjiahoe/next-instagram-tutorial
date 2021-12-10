@@ -30,10 +30,6 @@ function Posts() {
 					caption={post.caption}
 				/>
 			))}
-			<Post />
-			<Post />
-			<Post />
-			<Post />
 		</div>
 	);
 }
