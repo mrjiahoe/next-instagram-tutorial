@@ -37,6 +37,10 @@ function Post({ id, username, userImg, img, caption }) {
 			</div>
 
 			{/* caption */}
+			<p className="p-5 truncate">
+				<span className="font-bold mr-1">{username} </span>
+				{caption}
+			</p>
 
 			{/* comments */}
 

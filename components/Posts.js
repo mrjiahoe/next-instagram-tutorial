@@ -5,7 +5,7 @@ const posts = [
 		id: "123",
 		username: "name123",
 		userImg: "https://bit.ly/31URxYM",
-		img: "https://bit.ly/3EKOXmr",
+		img: "https://bit.ly/3IDDurq",
 		caption: "nice",
 	},
 	{
