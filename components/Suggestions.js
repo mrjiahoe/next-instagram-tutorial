@@ -27,7 +27,7 @@ function Suggestions() {
 				>
 					<img
 						className="w-10 h-10 rounded-full border p-[2px]"
-						src={profile.avatar}
+						// src={profile.avatar}
 						alt=""
 					/>
 
