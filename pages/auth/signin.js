@@ -11,6 +11,7 @@ function signIn({ providers }) {
 				<p className="font-xs italic">
 					This is not a REAL app, it is built for educational purposes only
 				</p>
+
 				<div className="mt-40">
 					{Object.values(providers).map((provider) => (
 						<div key={provider.name}>
